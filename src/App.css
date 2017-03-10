@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+
+}
+
+body {
+  background-color: #efdfbe;
 }
 
 .App-logo {
@@ -8,7 +13,7 @@
 }
 
 .App-header {
-  background-color: #222;
+  background: #311005;
   height: 150px;
   padding: 20px;
   color: white;
@@ -21,4 +26,15 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.cookies-box {
+  display: flex;
+  max-width: 500px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.image {
+  max-width: 100px;
 }

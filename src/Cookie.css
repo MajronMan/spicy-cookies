@@ -1,0 +1,23 @@
+.cookie {
+	font-family: Helvetica;
+	flex: 1 0 100px;
+
+	padding: 20px
+}
+.cookie-button {
+	 box-shadow: rgb(166, 130, 126) 0px 1px 0px 0px inset;
+	 background: #51281a;
+	 border-radius: 3px;
+	 border: 1px solid #21080a;
+	 display: inline-block;
+	 cursor: pointer;
+	 color: rgb(255, 255, 255);
+	 padding: 6px 24px;
+	 margin: 10px 0;
+	 text-decoration: none;
+	 text-shadow: #000000 0px 1px 0px;
+}
+
+.cookie-button:hover {
+	background: #61382a;
+}
